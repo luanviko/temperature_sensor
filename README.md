@@ -5,7 +5,7 @@ A program to read temperature measurements from two Phidgets TEMP_1100_0 thermoc
 
 To start acquisition of temperature using thermocouples install on port 0 and 1, run
 
-'''bash
+'''
 python3 measure_temperature.py <run_number>
 '''
 
@@ -13,13 +13,13 @@ where <run_number> is an integer, such as *10*. The data will automatically save
 
 To start a live plot of the data being taken
 
-'''bash
+'''
 python3 live_plot.py
 '''
 
 To plot an static curve
 
-'''bash
+'''
 python3 plot_temperature.py <file_path>
 '''
 
